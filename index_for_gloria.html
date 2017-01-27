@@ -1,0 +1,556 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>Digital Citizen Project</title>
+	<!-- Page description -->
+	<meta name="description" content="Digital Citizen Project">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- End of Meta -->
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/common/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/img/common/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/common/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/common/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/common/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/common/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/img/common/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/common/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/common/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/img/common/favicon/manifest.json">
+	<!--<link rel="shortcut icon" href="assets/img/common/favicon/favicon.ico">-->
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/img/common/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/img/common/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- End of Favicon -->
+	<!-- StyleSheets -->
+	<link rel="stylesheet" href="dist/style.css">
+	<link rel="stylesheet" href="dist/YouTubePopUp.css">
+	<!-- End of StyleSheets -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>  
+</head>
+
+<body class="js-preload-me ">
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<!-- Preloader -->
+	<div class="preloader js-preloader ">
+		<span class="preloader__circle preloader__circle--primary"></span>
+		<span class="preloader__circle preloader__circle--secondary"></span>
+		<span class="preloader__circle preloader__circle--tertiary"></span>
+	</div>
+	<!-- End of Preloader -->
+	<!-- Page -->
+	<div class="page js-page ">
+		<!-- Mobile Menu -->
+		<div id="sidr">
+			<div class="mobile-menu__close js-mobile-menu__close"></div>
+			<ul class="mobile-menu js-mobile-menu ">
+				<li class="mobile-menu__item ">
+					<a href="#top" class="mobile-menu__link js-scroll-to">Home</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#" class="mobile-menu__link">Learn</a>
+					<ul class="mobile-menu__child">
+						<li class="mobile-menu__item ">
+							<a href="#digital_explorers" class="mobile-menu__link js-scroll-to">Digital Explorers</a>
+						</li>
+						<li class="mobile-menu__item ">
+							<a href="#digital_innovators" class="mobile-menu__link js-scroll-to">Digital Innovators</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#" class="mobile-menu__link">Apps Marketplace</a>
+                    <!--
+					<ul class="mobile-menu__child">
+						<li class="mobile-menu__item ">
+							<a href="#video" class="mobile-menu__link js-scroll-to">Video</a>
+						</li>
+						<li class="mobile-menu__item ">
+							<a href="#screenshots" class="mobile-menu__link js-scroll-to">Screenshots</a>
+						</li>
+					</ul>
+                    -->
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="index_template.html" class="mobile-menu__link js-scroll-to">Volunteer Space</a>
+				</li>
+                <!--
+				<li class="mobile-menu__item ">
+					<a href="#gallery" class="mobile-menu__link js-scroll-to">Gallery</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#plans" class="mobile-menu__link js-scroll-to">Plans</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#contacts" class="mobile-menu__link js-scroll-to">Contacts</a>
+				</li>
+				<li class="mobile-menu__item mobile-menu__item--button">
+					<a href="#download" class="mobile-menu__link js-scroll-to">Download</a>
+				</li>
+                -->
+			</ul>
+		</div>
+		<!-- End of Mobile Menu -->
+		<!-- Header -->
+		<header class="header js-header ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<!-- Logo -->
+						<div class="logo ">
+							<span class="logo__link"><img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image js-logo__image" data-switch="true"></span>
+						</div>
+						<!-- End of Logo -->
+					</div>
+					<div class="col-md-20 col-sm-20 col-xs-12">
+						<!-- Menu -->
+						<nav>
+							<ul class="menu menu--right js-menu sf-menu ">
+								<li class="menu__item ">
+									<a href="#top" class="menu__link js-scroll-to">Home</a>
+								</li>                                
+								<li class="menu__item ">
+									<a href="#" class="menu__link">Learn</a>
+									<ul class="menu__child">
+										<li class="menu__item ">
+											<a href="#digital_explorers" class="menu__link js-scroll-to">Digital Explorers</a>
+										</li>
+										<li class="menu__item ">
+											<a href="#digital_innovators" class="menu__link js-scroll-to">Digital Innovators</a>
+										</li>
+									</ul>
+								</li>   
+                                                            
+								<li class="menu__item ">
+									<a href="#" class="menu__link">Apps Marketplace</a>
+                                    <!--
+									<ul class="menu__child">
+										<li class="menu__item ">
+											<a href="#video" class="menu__link js-scroll-to">Video</a>
+										</li>
+										<li class="menu__item ">
+											<a href="#screenshots" class="menu__link js-scroll-to">Screenshots</a>
+										</li>
+									</ul>
+                                    -->
+								</li>
+								<li class="menu__item ">
+									<a href="index_template.html" class="menu__link js-scroll-to">Volunteer Space</a>
+								</li>
+                                <!--
+								<li class="menu__item ">
+									<a href="#gallery" class="menu__link js-scroll-to">Gallery</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#plans" class="menu__link js-scroll-to">Plans</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#contacts" class="menu__link js-scroll-to">Contacts</a>
+								</li>
+								<li class="menu__item menu__item--button">
+									<a href="#download" class="menu__link js-scroll-to">Download</a>
+								</li>
+                                -->
+							</ul>
+						</nav>
+						<!-- End of Menu -->
+						<!-- Menu Trigger -->
+						<a class="menu-trigger js-menu-trigger " href='sidr'> </a>
+						<!-- End of Menu Trigger -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End of Header -->
+
+
+<div class="hero-template" id="top">
+
+      	<style>
+        	.breadcrumb__t {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+.breadcrumb__t {
+    hyphens: auto;
+    margin: 0;
+    word-wrap: break-word;
+}
+.breadcrumb {
+    list-style: outside none none;
+}
+.breadcrumb__t li {
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.breadcrumb__t li {
+    display: inline;
+}
+.breadcrumb__t li a {
+    color: inherit;
+}
+a {
+    transition: all 0.3s ease 0s;
+}
+a {
+    outline: medium none;
+}
+a {
+    text-decoration: none;
+}
+.breadcrumb__t li.divider::after {
+    color: #fff;
+    content: "|";
+    font: 300 16px/23px "Open Sans",sans-serif;
+}
+.breadcrumb__t li.divider::after {
+    color: #333333;
+    content: " / ";
+    font: 12px/18px Arial,Helvetica,sans-serif;
+}
+.breadcrumb__t li.divider {
+    background-color: transparent;
+    border: 0 none;
+    color: transparent;
+    font: 0px/0 a;
+    margin: 0 21px;
+    text-shadow: none;
+}
+
+        </style>
+ 
+    <div class="container" style="padding-bottom:150px">
+        <div class="row">
+            <div style="background:#04c9f4!important;min-height:100px;">
+                <div style="padding:42px">
+                    <ul class="breadcrumb breadcrumb__t">
+                        <li><a href="https://livedemo00.template-help.com/wordpress_51770">Home</a></li>
+                        <li>|</li> <li class="active">Article Title</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+ 
+</div>
+<br /><br /><br />
+<!-- Section 1 -->
+<section class="section section--skin-1 " id='features'>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <!-- Push -->
+        <div class="push push--60  "> </div>
+        <!-- End of Push -->
+        <!-- Section Title -->
+        <h2 class="section-title section-title--center "> Digital
+        <span class="section-title__highlight">Explorers</span></h2>
+        <!-- End of Section Title -->
+        <!-- Section Subtitle -->
+        <p class="section-subtitle ">Citizens across Africa, interested to acquire skills in fundamental digital competencies for work, employment, leisure, eudcation and participation in society</p>
+        <!-- End of Section Subtitle -->
+
+        <!-- Accordion -->
+        <ul class="accordion js-accordion ">
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/1.png" class="accordion__icon" alt="Access the web">Access the web</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Use the internet</li>
+                <li class="list__item">Internet of Things</li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/2.png" class="accordion__icon" alt="Use cool apps, learn & play">Use cool apps, learn & play</h3>
+              <div class="accordion__content">
+                <ul class="list list--check">
+                  <li class="list__item">Daily life digital tools</li>
+                  <li class="list__item">Learn through serious game</li>
+                </ul>
+              </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/3.png" class="accordion__icon" alt="Create and share content">Create and share content</h3>
+                <div class="accordion__content">
+                  <ul class="list list--check">
+                    <li class="list__item">Create and use digital content</li>
+                    <li class="list__item">Share content on the cloud</li>
+                  </ul>
+                </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/4.png" class="accordion__icon" alt="Join social communities">Join social communities</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Connect with family and friends</li>
+                <li class="list__item">Expand your network</li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/5.png" class="accordion__icon" alt="Collaborate digitally">Collaborate digitally</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Online communication tools</li>
+                <li class="list__item">Collaboration in the cloud</li>
+              </ul>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+            <img src="assets/img/common/icons/6.png" class="accordion__icon" alt="Digital safety and protection">Digital safety and protection</h3>
+
+               <div class="accordion__content">
+                 <ul class="list list--check">
+                   <li class="list__item">Personal data</li>
+                   <li class="list__item">Cyber protection tools and practices</li>
+                 </ul>
+                </div>
+
+          </li>
+        </ul>
+        <!-- End of Accordion -->
+      </div>
+      <div class="col-lg-12 col-md-11 col-md-offset-1 col-lg-offset-0">
+        <!-- Screens Preview -->
+        <div class="screens-preview screens-preview--right  ">
+          <img src="assets/img/common/home/mobile_samples1.jpg" class="screens-preview__primary" alt="Primary Screenshot">
+          <img src="assets/img/common/home/mobile_samples2.jpg" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+        <!-- End of Screens Preview -->
+      </div>
+    </div>
+    <div class="row" style="margin-top: 130px;">
+      <div class="col-lg-13 col-md-13">
+        <!-- Screens Preview -->
+        <div class="screens-preview  ">
+          <img src="assets/img/common/home/mobile_samples3.jpg" class="screens-preview__primary" alt="Primary Screenshot">
+          <img src="assets/img/common/home/mobile_samples4.jpg" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+        <!-- End of Screens Preview -->
+      </div>
+      <div class="col-lg-11 col-md-10 col-lg-offset-0 col-md-offset-1">
+        <!-- Push -->
+        <div class="push push--100  "> </div>
+        <!-- End of Push -->
+        <!-- Section Title -->        
+        <h2 class="section-title section-title--center "> Digital
+        <span class="section-title__highlight">Innovators</span></h2>
+        <!-- End of Section Title -->
+        <!-- Section Subtitle -->
+        <p class="section-subtitle ">Innovators, interested on solving problems using technology, bringing digital solutions to their communities and event creating their own start-up company, spring boarding Africa into the future</p>
+        <!-- End of Section Subtitle -->
+
+        <!-- Accordion -->
+
+        <ul class="accordion js-accordion ">
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/7.png" class="accordion__icon" alt="Become an innovator">Become an innovator</h3>
+              <div class="accordion__content">
+                <ul class="list list--check">
+                  <li class="list__item">Spark new ideas</li>
+                  <li class="list__item">Put ideas into practice</li>
+                </ul>
+              </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/8.png" class="accordion__icon" alt="Design and code apps">Design and code apps</h3>
+              <div class="accordion__content">
+                <ul class="list list--check">
+                  <li class="list__item">Design for need and speed</li>
+                  <li class="list__item">Create your first app</li>
+                </ul>
+              </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/9.png" class="accordion__icon" alt="Team Work">Team Work</h3>
+              <div class="accordion__content">
+                <ul class="list list--check">
+                  <li class="list__item">Organization tips</li>
+                  <li class="list__item">Cool collaboration tools</li>
+                </ul>
+              </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/10.png" class="accordion__icon" alt="Reuse and accelerate">Reuse and accelerate</h3>
+              <div class="accordion__content">
+                <ul class="list list--check">
+                  <li class="list__item">Reuse the public cloud</li>
+                  <li class="list__item">Plug-in microservices</li>
+                </ul>
+              </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/11.png" class="accordion__icon" alt="Security tips and tricks">Security tips and tricks</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Secure your app</li>
+                <li class="list__item">Check for new vulnerabilities</li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/12.png" class="accordion__icon" alt="Publish and share online apps">Publish and share online apps</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Easy deployment in the cloud</li>
+                <li class="list__item">Launch and manage your app</li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="accordion__item">
+            <h3 class="accordion__title">
+              <img src="assets/img/common/icons/13.png" class="accordion__icon" alt="Market your app">Market your app</h3>
+            <div class="accordion__content">
+              <ul class="list list--check">
+                <li class="list__item">Secure your app</li>
+                <li class="list__item">Check for new vulnerabilities</li>
+              </ul>
+
+            </div>
+          </li>
+        </ul>
+        <!-- End of Accordion -->
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Section -->
+
+<!-- Footer -->
+<footer class="footer ">
+    <a href="#" class="footer__scroll-top js-scroll-top">
+        <i class="fontello-level-up footer__scroll-icon"></i>
+    </a>
+    <!--
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo ">
+            <a href="index.html" class="logo__link">
+              <img src="assets/img/common/logo/logo-dark.png" alt="Logo" class="logo__image"> </a>
+          </div>
+          <p class="footer__message">Illum qui culpa facilis dolorum cum quis placeat recusandae voluptatum cumque quisquam quia quaerat sit vel harum aliquam unde!</p>
+        </div>
+        <div class="col-md-5 col-sm-12 col-xs-12 col-md-offset-2">
+          <nav class="link-list  ">
+            <ul>
+              <li class="link-list__item">
+                <a href="#" class="link-list__link">More information</a>
+              </li>
+              <li class="link-list__item">
+                <a href="#" class="link-list__link">FAQ</a>
+              </li>
+              <li class="link-list__item">
+                <a href="#" class="link-list__link">Term of use</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-5 col-sm-12 col-xs-12">
+          <nav class="link-list  ">
+            <ul>
+              <li class="link-list__item">
+                <a href="http://twitter.com/vlad_sargu" class="link-list__link">Twitter</a>
+              </li>
+              <li class="link-list__item">
+                <a href="http://facebook.com" class="link-list__link">Facebook</a>
+              </li>
+              <li class="link-list__item">
+                <a href="http://instagram.com/vladsargu" class="link-list__link">Instagram</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="push push--80  "> </div>
+    <ul class="instagram-widget  ">
+      <li class="instagram-widget__item instagram-widget__item--icon">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link instagram-widget__link--icon">
+          <i class="fontello-instagram instagram-widget__icon"></i>
+        </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+      <li class="instagram-widget__item">
+        <a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+          <img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+      </li>
+    </ul>
+    -->
+</footer>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="dist/script.js"></script>
+<script src="dist/YouTubePopUp.jquery.js"></script>
+<!-- Now that both YouTubePopUp and jQuery are loaded, set all the class .js-video to open as YouTubePopUp -->
+<script type="text/javascript">
+    $(function () {
+        $(".js-video").YouTubePopUp();
+    });
+</script>
+</body>
+
+</html>
